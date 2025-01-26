@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.game-dice {
+  font-size: 8rem;
+}
+
+.roll-animation {
+  animation-name: roll-animation;
+  animation-duration: 1s;
+}
+
+@keyframes roll-animation {
+  to {
+    transform: rotateY(720deg) rotateX(720deg);
+  }
+}
+
+.slide-up-animation {
+  animation-name: slide-up-animation;
+  animation-duration: 0.5s;
+}
+
+@keyframes slide-up-animation {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+}
+
+.game-container button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: DarkMagenta;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.game-container button:hover {
+  background-color: #660066;
+}
+
+.result-item {
+  width: 25rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .result-item {
+    width: 20rem;
+  }
+}
+
+.result-dice {
+  font-size: 2.5rem;
+}
