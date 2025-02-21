@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tip Calculator</title>
-    <script src="https://unpkg.com/vue@3.5.13/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@2"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -32,13 +32,15 @@
         </div>
 
         <div>
-          <button v-on:click="resetForm">Reset</button>
+          <button @click="resetForm">Reset</button>
         </div>
       </div>
 
       <div class="result">Total: ₹{{ total }}</div>
 
       <div class="message">Thank you for paying ₹{{ total }}!</div>
+
+      <!-- <h1>my salary is {{salary}}</h1> -->
 
       <div class="message" v-if="billAmount > 0 && tipPercentage > 0">
         <span v-if="tipPercentage <= 10">You are a good person!</span>
@@ -48,35 +50,42 @@
     </main>
 
     <script>
-      const config = {
-        data() {
-          return {
-            billAmount: '',
-            tipPercentage: '',
-          };
+      const myData = {
+        billAmount: '',
+        tipPercentage: '',
+      };
+
+      const myMethods = {
+        resetForm() {
+          this.billAmount = '';
+          this.tipPercentage = '';
         },
-        computed: {
-          total() {
-            return (
-              Number(this.billAmount) + Number((this.billAmount * this.tipPercentage) / 100)
-            ).toFixed(2);
-          },
-        },
-        methods: {
-          resetForm() {
-            this.billAmount = '';
-            this.tipPercentage = '';
-          },
-          validateTipPercentage() {
-            if (this.tipPercentage > 100) {
-              this.tipPercentage = 100;
-            }
-          },
+        validateTipPercentage() {
+          if (this.tipPercentage > 100) {
+            this.tipPercentage = 100;
+          }
         },
       };
 
-      const app = Vue.createApp(config);
-      app.mount('#app');
+      const myComputed = {
+        total() {
+          return (
+            Number(this.billAmount) + Number((this.billAmount * this.tipPercentage) / 100)
+          ).toFixed(2);
+        },
+      };
+
+      const config = {
+        el: '#app',
+        data: myData,
+        computed: myComputed,
+        methods: myMethods,
+      };
+
+      const app = new Vue(config);
+      app.billAmount = '9119';
+      // app.salary = 11;
+      // app.mount('#app');
     </script>
   </body>
 </html>

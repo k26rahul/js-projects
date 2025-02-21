@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  color: inherit;
+  user-select: none;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  color: white;
+  background-color: #263238;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heart {
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  user-select: none;
+  animation-name: fade-out;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+@keyframes fade-out {
+  25% {
+    color: deeppink;
+  }
+
+  50% {
+    color: orangered;
+  }
+
+  75% {
+    color: mediumaquamarine;
+  }
+
+  to {
+    top: -100px;
+    color: white;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  border: 5px solid snow;
+  background-color: aliceblue;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: none;
+  /* transition: opacity 0.5s; */
+}
+
+img.active {
+  display: initial;
+}

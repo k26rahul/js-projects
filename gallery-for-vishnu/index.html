@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery For Vishnu</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <script src="https://unpkg.com/vue@2.7.16/dist/vue.js"></script>
+  </head>
+  <body>
+    <main id="app">
+      <div id="container">
+        <img
+          :class="{active: img.isActive}"
+          v-for="img in images"
+          :src="`./assets/Photos-001/${img.url}`"
+          :alt="img.url"
+        />
+      </div>
+    </main>
+
+    <script>
+      const config = {
+        el: '#app',
+        data: {
+          images: [
+            { url: '20230820_154554.jpg', isActive: false },
+            { url: '20230830_084647.jpg', isActive: false },
+            { url: '20230908_150605.jpg', isActive: false },
+            { url: '20231018_153703.jpg', isActive: false },
+            { url: '20231018_161840.jpg', isActive: false },
+            { url: '20231113_151237.jpg', isActive: false },
+            { url: '20231113_151238.jpg', isActive: false },
+            { url: '20231114_155922.jpg', isActive: false },
+            { url: '20231114_155943.jpg', isActive: false },
+            { url: '20231115_225921.jpg', isActive: false },
+            { url: '20231229_173421.jpg', isActive: false },
+            { url: '20240607_172706.jpg', isActive: false },
+            { url: '20240815_091046.jpg', isActive: false },
+            { url: '20240815_091105.jpg', isActive: false },
+            { url: 'DecoPic_20231118_184056.jpg', isActive: false },
+            { url: 'IMG20210824141956.jpg', isActive: false },
+            { url: 'IMG20210824142120.jpg', isActive: false },
+            { url: 'IMG20210826092128.jpg', isActive: false },
+            { url: 'IMG20230417175533~2.jpg', isActive: false },
+            { url: 'IMG20230909115505.jpg', isActive: false },
+            { url: 'IMG20240503122222.jpg', isActive: false },
+            { url: 'IMG20240907095544.jpg', isActive: false },
+            { url: 'IMG20241106182318.jpg', isActive: false },
+            { url: 'IMG20241211195302.jpg', isActive: false },
+            { url: 'IMG20241213161359.jpg', isActive: false },
+            { url: 'IMG20241213161403.jpg', isActive: false },
+            { url: 'IMG20241213161630.jpg', isActive: false },
+            { url: 'IMG20241213161646.jpg', isActive: false },
+            { url: 'IMG20241214170847.jpg', isActive: false },
+            { url: 'IMG20250126072646_BURST000_COVER.jpg', isActive: false },
+            { url: 'IMG20250126072829.jpg', isActive: false },
+            { url: 'IMG20250206184340.jpg', isActive: false },
+            { url: 'IMG20250206184855.jpg', isActive: false },
+            { url: 'IMG20250208180426.jpg', isActive: false },
+            { url: 'IMG20250220170750.jpg', isActive: false },
+          ],
+        },
+      };
+      const app = new Vue(config);
+    </script>
+  </body>
+</html>
