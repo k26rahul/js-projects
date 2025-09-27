@@ -10,17 +10,20 @@ export default {
     payNow() {
       router.push('/track-order');
     },
+    goBack() {
+      router.push('/');
+    },
   },
 };
 </script>
 
 <template>
   <h1>Checkout</h1>
-  <p>Complete the payment to place your order. Total: {{ store.totalAmount }}</p>
+  <p>Complete the payment to place your order. Total: ₹{{ store.totalAmount }}</p>
   <div>
     <button @click="payNow">Pay now</button>
   </div>
   <div>
-    <a href="#/">Go back to menu</a>
+    <a href="#" @click.prevent="goBack">Go back to menu</a>
   </div>
 </template>

@@ -8,10 +8,9 @@ export default {
   },
   methods: {
     updateQty(dishName, change) {
-      let orders = store.orders;
-      if (orders[dishName] === undefined) orders[dishName] = 0;
-      orders[dishName] += change;
-      if (orders[dishName] <= 0) delete orders[dishName];
+      if (!store.orders[dishName]) store.orders[dishName] = 0;
+      store.orders[dishName] += change;
+      if (store.orders[dishName] <= 0) delete store.orders[dishName];
     },
     removeOrder(dishName) {
       delete store.orders[dishName];
@@ -49,7 +48,7 @@ export default {
 
   <div id="menu-container">
     <div class="menu-item" v-for="dish in store.dishes">
-      <img v-bind:src="`/images/${dish.img}`" v-bind:alt="`Picture of ${dish.name}`" />
+      <img v-bind:src="`images/${dish.img}`" v-bind:alt="`Picture of ${dish.name}`" />
 
       <div class="name">{{ dish.name }}</div>
       <div class="desc">{{ dish.desc }}</div>
