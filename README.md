@@ -4,6 +4,8 @@ A collection of JavaScript projects.
 
 This repository was created in January 2025.
 
+GitHub: [https://github.com/k26rahul/js-projects](https://github.com/k26rahul/js-projects)
+
 Live site: [https://k26rahul.github.io/js-projects/](https://k26rahul.github.io/js-projects/)
 
 ## Projects
