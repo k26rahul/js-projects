@@ -1,107 +1,177 @@
 [
   {
-    "title": "Basic Calculator",
-    "description": "Simple calculator for basic arithmetic operations",
-    "date": "2025-10-12",
-    "slug": "basic-calculator",
-    "tags": ["HTML", "CSS", "JavaScript"]
+    "title": "Ramakoti Yagna",
+    "description": "Digital counter for spiritual practice tracking",
+    "date": "2024-12-13",
+    "slug": "ramakoti-yagna",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Counter"
+    ]
   },
   {
     "title": "Dice Roll Simulator",
     "description": "Interactive dice roller with roll history animation",
-    "date": "2025-10-12",
+    "date": "2025-01-04",
     "slug": "dice-roll-simulator",
-    "tags": ["HTML", "CSS", "JavaScript", "Animation"]
-  },
-  {
-    "title": "Gallery for Vishnu",
-    "description": "Image gallery with custom styling",
-    "date": "2025-10-12",
-    "slug": "gallery-for-vishnu",
-    "tags": ["HTML", "CSS", "JavaScript"]
-  },
-  {
-    "title": "Heart Trail Animation",
-    "description": "Interactive heart particles following mouse movement",
-    "date": "2025-10-12",
-    "slug": "heart-trail-animation",
-    "tags": ["HTML", "CSS", "JavaScript", "Animation"]
-  },
-  {
-    "title": "Mouse Event",
-    "description": "Real-time mouse coordinate tracking display",
-    "date": "2025-10-12",
-    "slug": "mouse-event",
-    "tags": ["HTML", "CSS", "JavaScript", "Events"]
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Animation"
+    ]
   },
   {
     "title": "Pomodoro Timer",
     "description": "Focus timer with work and break intervals",
-    "date": "2025-10-12",
+    "date": "2025-01-07",
     "slug": "pomodoro-timer",
-    "tags": ["HTML", "CSS", "JavaScript", "Timer"]
-  },
-  {
-    "title": "Ramakoti Yagna",
-    "description": "Digital counter for spiritual practice tracking",
-    "date": "2025-10-12",
-    "slug": "ramakoti-yagna",
-    "tags": ["HTML", "CSS", "JavaScript", "Counter"]
-  },
-  {
-    "title": "Random Password Generator",
-    "description": "Generate secure passwords with custom options",
-    "date": "2025-10-12",
-    "slug": "random-password-generator",
-    "tags": ["HTML", "CSS", "JavaScript"]
-  },
-  {
-    "title": "Restaurant Menu",
-    "description": "Dynamic menu interface built with Vue",
-    "date": "2025-10-12",
-    "slug": "restaurant-menu",
-    "tags": ["HTML", "CSS", "Vue.js"]
-  },
-  {
-    "title": "Restaurant Menu Router",
-    "description": "Menu application with Vue router integration",
-    "date": "2025-10-12",
-    "slug": "restaurant-menu-router",
-    "tags": ["HTML", "CSS", "Vue.js", "Vue Router"]
-  },
-  {
-    "title": "Restaurant Menu Store",
-    "description": "Menu app with Vue state management",
-    "date": "2025-10-12",
-    "slug": "restaurant-menu-store",
-    "tags": ["HTML", "CSS", "Vue.js", "Vuex"]
-  },
-  {
-    "title": "Restaurant Menu Vite",
-    "description": "Modern restaurant menu using Vite build tool",
-    "date": "2025-10-12",
-    "slug": "restaurant-menu-vite",
-    "tags": ["HTML", "CSS", "Vue.js", "Vite"]
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Timer"
+    ]
   },
   {
     "title": "Rock Paper Scissors Game",
     "description": "Classic game with interactive gameplay mechanics",
-    "date": "2025-10-12",
+    "date": "2025-01-10",
     "slug": "rock-paper-scissors-game",
-    "tags": ["HTML", "CSS", "JavaScript", "Game"]
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Game"
+    ]
   },
   {
-    "title": "Tip Calculator",
+    "title": "Random Password Generator",
+    "description": "Generate secure passwords with custom options",
+    "date": "2025-01-14",
+    "slug": "random-password-generator",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Mouse Event",
+    "description": "Real-time mouse coordinate tracking display",
+    "date": "2025-01-17",
+    "slug": "mouse-event",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Events"
+    ]
+  },
+  {
+    "title": "Heart Trail Animation",
+    "description": "Interactive heart particles following mouse movement",
+    "date": "2025-01-18",
+    "slug": "heart-trail-animation",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Animation"
+    ]
+  },
+  {
+    "title": "Basic Calculator",
+    "description": "Simple calculator for basic arithmetic operations",
+    "date": "2025-01-22",
+    "slug": "basic-calculator",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Tip Calculator (Vue)",
     "description": "Calculate tips and split bills using Vue",
-    "date": "2025-10-12",
-    "slug": "tip-calculator",
-    "tags": ["HTML", "CSS", "Vue.js"]
+    "date": "2025-02-13",
+    "slug": "tip-calculator-vue",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Vue.js"
+    ]
   },
   {
-    "title": "Tip Calculator Vanilla",
+    "title": "Restaurant Menu (Vue)",
+    "description": "Dynamic menu interface built with Vue",
+    "date": "2025-02-14",
+    "slug": "restaurant-menu-vue",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "title": "Tip Calculator (Vanilla JS)",
     "description": "Bill and tip calculator in plain JavaScript",
-    "date": "2025-10-12",
+    "date": "2025-02-14",
     "slug": "tip-calculator-vanilla",
-    "tags": ["HTML", "CSS", "JavaScript"]
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Gallery for Vishnu",
+    "description": "Image gallery with custom styling",
+    "date": "2025-02-21",
+    "slug": "gallery-for-vishnu",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Restaurant Menu (Router)",
+    "description": "Menu application with Vue router integration",
+    "date": "2025-03-10",
+    "slug": "restaurant-menu-router",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Vue.js",
+      "Vue Router"
+    ]
+  },
+  {
+    "title": "Restaurant Menu (Store)",
+    "description": "Menu app with Vue state management",
+    "date": "2025-03-10",
+    "slug": "restaurant-menu-store",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Vue.js",
+      "Vuex"
+    ]
+  },
+  {
+    "title": "Restaurant Menu (Vite)",
+    "description": "Modern restaurant menu using Vite build tool",
+    "date": "2025-03-10",
+    "slug": "restaurant-menu-vite",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Vue.js",
+      "Vite"
+    ],
+    "deployedFromDist": true
   }
 ]

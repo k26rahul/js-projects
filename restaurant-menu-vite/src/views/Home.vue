@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-  <h1>Restaurant Menu</h1>
+  <h1>Restaurant Menu (Vite)</h1>
 
   <div id="summary">
     <h2>Order Summary</h2>
