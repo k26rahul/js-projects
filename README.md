@@ -18,12 +18,12 @@ Live site: [https://k26rahul.github.io/js-projects/](https://k26rahul.github.io/
 - [Pomodoro Timer](https://k26rahul.github.io/js-projects/pomodoro-timer)
 - [Ramakoti Yagna](https://k26rahul.github.io/js-projects/ramakoti-yagna)
 - [Random Password Generator](https://k26rahul.github.io/js-projects/random-password-generator)
-- [Restaurant Menu (Vue)](https://k26rahul.github.io/js-projects/restaurant-menu)
-- [Restaurant Menu with Router (Vue)](https://k26rahul.github.io/js-projects/restaurant-menu-router)
-- [Restaurant Menu with Store (Vue)](https://k26rahul.github.io/js-projects/restaurant-menu-store)
-- [Restaurant Menu with Vite (Vue)](https://k26rahul.github.io/js-projects/restaurant-menu-vite/dist/)
+- [Restaurant Menu (Vue)](https://k26rahul.github.io/js-projects/restaurant-menu-vue)
+- [Restaurant Menu with Router](https://k26rahul.github.io/js-projects/restaurant-menu-router)
+- [Restaurant Menu with Store](https://k26rahul.github.io/js-projects/restaurant-menu-store)
+- [Restaurant Menu with Vite](https://k26rahul.github.io/js-projects/restaurant-menu-vite/dist/)
 - [Rock Paper Scissors Game](https://k26rahul.github.io/js-projects/rock-paper-scissors-game)
-- [Tip Calculator (Vue)](https://k26rahul.github.io/js-projects/tip-calculator)
+- [Tip Calculator (Vue)](https://k26rahul.github.io/js-projects/tip-calculator-vue)
 - [Tip Calculator (Vanilla JS)](https://k26rahul.github.io/js-projects/tip-calculator-vanilla)
 
 ## Scripts
