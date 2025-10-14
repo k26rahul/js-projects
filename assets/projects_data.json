@@ -105,17 +105,6 @@
     ]
   },
   {
-    "title": "Restaurant Menu (Vue)",
-    "description": "Dynamic menu interface built with Vue",
-    "date": "2025-02-14",
-    "slug": "restaurant-menu-vue",
-    "tags": [
-      "HTML",
-      "CSS",
-      "Vue.js"
-    ]
-  },
-  {
     "title": "Tip Calculator (Vanilla JS)",
     "description": "Bill and tip calculator in plain JavaScript",
     "date": "2025-02-14",
@@ -124,6 +113,17 @@
       "HTML",
       "CSS",
       "JavaScript"
+    ]
+  },
+  {
+    "title": "Restaurant Menu (Vue)",
+    "description": "Dynamic menu interface built with Vue",
+    "date": "2025-02-14",
+    "slug": "restaurant-menu-vue",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Vue.js"
     ]
   },
   {
@@ -138,16 +138,17 @@
     ]
   },
   {
-    "title": "Restaurant Menu (Router)",
-    "description": "Menu application with Vue router integration",
+    "title": "Restaurant Menu (Vite)",
+    "description": "Modern restaurant menu using Vite build tool",
     "date": "2025-03-10",
-    "slug": "restaurant-menu-router",
+    "slug": "restaurant-menu-vite",
     "tags": [
       "HTML",
       "CSS",
       "Vue.js",
-      "Vue Router"
-    ]
+      "Vite"
+    ],
+    "deployedFromDist": true
   },
   {
     "title": "Restaurant Menu (Store)",
@@ -162,16 +163,15 @@
     ]
   },
   {
-    "title": "Restaurant Menu (Vite)",
-    "description": "Modern restaurant menu using Vite build tool",
+    "title": "Restaurant Menu (Router)",
+    "description": "Menu application with Vue router integration",
     "date": "2025-03-10",
-    "slug": "restaurant-menu-vite",
+    "slug": "restaurant-menu-router",
     "tags": [
       "HTML",
       "CSS",
       "Vue.js",
-      "Vite"
-    ],
-    "deployedFromDist": true
+      "Vue Router"
+    ]
   }
 ]
